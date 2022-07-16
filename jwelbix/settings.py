@@ -74,16 +74,16 @@ WSGI_APPLICATION = 'jwelbix.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'jbnew',
-        'USER': 'postgres',
-        'PASSWORD': 'postgres123',
-        'HOST': 'postgres.ckcckebcw9a4.ap-south-1.rds.amazonaws.com',
-        'PORT':'5432'
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'jbnew',
+#         'USER': 'postgres',
+#         'PASSWORD': 'postgres123',
+#         'HOST': 'postgres.ckcckebcw9a4.ap-south-1.rds.amazonaws.com',
+#         'PORT':'5432'
+#     }
+# }
 
 
 # Password validation
